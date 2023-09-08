@@ -3,9 +3,9 @@ appName: myhelmapp
 port: 80
 
 configmap:
-  name: myhelmapp-configmap-v1.1
+  name: myhelmapp-configmap-v1.2
   data:
-    CUSTOM_HEADER: 'This app was deployed with helm!'
+    ENVIRONMENT: 'default'
 
 image:
   name: zaklaberg/greeter
