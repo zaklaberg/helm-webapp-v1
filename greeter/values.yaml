@@ -3,10 +3,10 @@ appName: myhelmapp
 port: 80
 
 configmap:
-  name: myhelmapp-configmap-v1.3
+  name: myhelmapp-configmap-v1.4
   data:
     ENVIRONMENT: 'default'
 
 image:
   name: zaklaberg/greeter
-  tag: v2
+  tag: v3
